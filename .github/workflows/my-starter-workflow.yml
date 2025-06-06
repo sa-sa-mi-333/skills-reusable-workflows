@@ -20,5 +20,5 @@ call-reusable-workflow:
     matrix:
       nodeversion: [14, 16, 18, 20]
   uses: ./.github/workflows/reusable-workflow.yml
-    with:
-      node: ${{ matrix.nodeversion }}
+  with:
+    node: ${{ matrix.nodeversion }}
